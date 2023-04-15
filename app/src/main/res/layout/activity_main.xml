@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232222"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/cowboys_from_hell"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="410dp"
+        android:background="@color/invisible"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cowboys_from_hell" />
+
+    <ImageButton
+        android:id="@+id/vulgar_display_of_power"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="410dp"
+        android:background="@color/invisible"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vulgar_display_of_power" />
+
+    <ImageButton
+        android:id="@+id/far_beyond_driven"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/invisible"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/far_beyond_driven" />
+
+    <ImageButton
+        android:id="@+id/the_great_southern_trendkill"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/invisible"
+        android:contentDescription="TODO"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/the_great_southern_trendkill" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="630dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pantera_logo" />
+
+    <TextView
+        android:id="@+id/cowboys_from_hell_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shredded"
+        android:text="Cowboys From Hell \n 1990"
+        android:textAlignment="center"
+        android:textColor="#E1DADA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/far_beyond_driven"
+        app:layout_constraintEnd_toEndOf="@+id/cowboys_from_hell"
+        app:layout_constraintStart_toStartOf="@+id/cowboys_from_hell"
+        app:layout_constraintTop_toBottomOf="@+id/cowboys_from_hell"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/vulgar_display_of_power_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shredded"
+        android:text="Vulgar Display of Power \n 1992"
+        android:textAlignment="center"
+        android:textColor="#E1DADA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/the_great_southern_trendkill"
+        app:layout_constraintEnd_toEndOf="@+id/vulgar_display_of_power"
+        app:layout_constraintStart_toStartOf="@+id/vulgar_display_of_power"
+        app:layout_constraintTop_toBottomOf="@+id/vulgar_display_of_power"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/far_beyond_driven_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shredded"
+        android:text="Far Beyond Driven \n 1994"
+        android:textAlignment="center"
+        android:textColor="#E1DADA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/far_beyond_driven"
+        app:layout_constraintStart_toStartOf="@+id/far_beyond_driven"
+        app:layout_constraintTop_toBottomOf="@+id/far_beyond_driven"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <TextView
+        android:id="@+id/the_great_southern_trendkill_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shredded"
+        android:text="The Great Southern Trendkill \n 1996"
+        android:textAlignment="center"
+        android:textColor="#E1DADA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/the_great_southern_trendkill"
+        app:layout_constraintStart_toStartOf="@+id/the_great_southern_trendkill"
+        app:layout_constraintTop_toBottomOf="@+id/the_great_southern_trendkill"
+        app:layout_constraintVertical_bias="0.207" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
