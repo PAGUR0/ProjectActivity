@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">ProjectActivity</string>
+    <string-array name="cowboys_from_hell_songs">
+        <item>«Cowboys from Hell»</item>
+        <item>«Primal Concrete Sledge»</item>
+        <item>«Psycho Holiday»</item>
+        <item>«Heresy»</item>
+        <item>«Cemetery Gates»</item>
+        <item>«Domination»</item>
+        <item>«Shattered»</item>
+        <item>«Clash with Reality»</item>
+        <item>«Medicine Man»</item>
+        <item>«Message in Blood»</item>
+        <item>«The Sleep»</item>
+        <item>«The Art of Shredding»</item>
+    </string-array>
+    <string-array name="vulgar_display_of_power_songs">
+
+    </string-array>
+    <string-array name="far_beyond_driven_songs">
+
+    </string-array>
+    <string-array name="the_great_southern_trendkill_songs">
+
+    </string-array>
 </resources>
