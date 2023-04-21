@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#232222"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
 
@@ -17,13 +17,13 @@
         android:layout_marginEnd="220dp"
         android:layout_marginBottom="410dp"
         android:background="@color/invisible"
-        android:contentDescription="TODO"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cowboys_from_hell" />
+        app:srcCompat="@drawable/cowboys_from_hell"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/vulgar_display_of_power"
@@ -34,13 +34,13 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="410dp"
         android:background="@color/invisible"
-        android:contentDescription="TODO"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vulgar_display_of_power" />
+        app:srcCompat="@drawable/vulgar_display_of_power"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/far_beyond_driven"
@@ -51,13 +51,13 @@
         android:layout_marginEnd="220dp"
         android:layout_marginBottom="140dp"
         android:background="@color/invisible"
-        android:contentDescription="TODO"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/far_beyond_driven" />
+        app:srcCompat="@drawable/far_beyond_driven"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/the_great_southern_trendkill"
@@ -68,32 +68,32 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="140dp"
         android:background="@color/invisible"
-        android:contentDescription="TODO"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/the_great_southern_trendkill" />
+        app:srcCompat="@drawable/the_great_southern_trendkill"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_marginBottom="630dp"
-        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pantera_logo" />
+        app:srcCompat="@drawable/pantera_logo"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/cowboys_from_hell_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/shredded"
-        android:text="Cowboys From Hell \n 1990"
+        android:text="@string/cowboys_from_hell"
         android:textAlignment="center"
         android:textColor="#E1DADA"
         android:textSize="20sp"
@@ -108,7 +108,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/shredded"
-        android:text="Vulgar Display of Power \n 1992"
+        android:text="@string/vulgar_display_of_power"
         android:textAlignment="center"
         android:textColor="#E1DADA"
         android:textSize="20sp"
@@ -123,7 +123,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/shredded"
-        android:text="Far Beyond Driven \n 1994"
+        android:text="@string/far_beyond_driven"
         android:textAlignment="center"
         android:textColor="#E1DADA"
         android:textSize="20sp"
@@ -138,7 +138,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/shredded"
-        android:text="The Great Southern Trendkill \n 1996"
+        android:text="@string/the_great_southern_trendkill"
         android:textAlignment="center"
         android:textColor="#E1DADA"
         android:textSize="20sp"

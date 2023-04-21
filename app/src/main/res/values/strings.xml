@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">ProjectActivity</string>
+    <string name="cowboys_from_hell">Cowboys From Hell \n 1990</string>
+    <string name="vulgar_display_of_power">Vulgar Display of Power \n 1992</string>
+    <string name="far_beyond_driven">Far Beyond Driven \n 1994</string>
+    <string name="the_great_southern_trendkill">The Great Southern Trendkill \n 1996</string>
+    <string name="todo">TODO</string>
     <string-array name="cowboys_from_hell_songs">
         <item>«Cowboys from Hell»</item>
         <item>«Primal Concrete Sledge»</item>
@@ -15,12 +20,12 @@
         <item>«The Art of Shredding»</item>
     </string-array>
     <string-array name="vulgar_display_of_power_songs">
-
+        <item>2</item>
     </string-array>
     <string-array name="far_beyond_driven_songs">
-
+        <item>3</item>
     </string-array>
     <string-array name="the_great_southern_trendkill_songs">
-
+        <item>4</item>
     </string-array>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#232222"
+    android:background="@color/background"
     tools:context=".ListViewActivity">
 
 
@@ -12,7 +12,7 @@
         android:id="@+id/songsList"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:background="#CC1A1A"
+        android:textAppearance="@font/shredded"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
