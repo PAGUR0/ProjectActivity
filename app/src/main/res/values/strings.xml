@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProjectActivity</string>
+    <string name="app_name">Pantera songs</string>
     <string name="cowboys_from_hell">Cowboys From Hell \n 1990</string>
     <string name="vulgar_display_of_power">Vulgar Display of Power \n 1992</string>
     <string name="far_beyond_driven">Far Beyond Driven \n 1994</string>
@@ -20,12 +20,43 @@
         <item>«The Art of Shredding»</item>
     </string-array>
     <string-array name="vulgar_display_of_power_songs">
-        <item>2</item>
+        <item>Mouth For War</item>
+        <item>A New Level</item>
+        <item>Walk</item>
+        <item>Fucking Hostile</item>
+        <item>This Love</item>
+        <item>Rise</item>
+        <item>No Good (Attack The Radical)</item>
+        <item>Live in a Hole</item>
+        <item>Regular People (Conceit)</item>
+        <item>By Demons Be Driven</item>
+        <item>Hollow</item>
     </string-array>
     <string-array name="far_beyond_driven_songs">
-        <item>3</item>
+        <item>Strength Beyond Strength</item>
+        <item>Becoming</item>
+        <item>5 Minutes Alone</item>
+        <item>I\'m Broken</item>
+        <item>Good Friends and a Bottle of Pills</item>
+        <item>Hard Lines, Sunken Cheeks</item>
+        <item>Slaughtered</item>
+        <item>25 Years</item>
+        <item>Shedding Skin</item>
+        <item>Use My Third Arm</item>
+        <item>Throes of Rejection</item>
+        <item>Planet Caravan</item>
     </string-array>
     <string-array name="the_great_southern_trendkill_songs">
-        <item>4</item>
+        <item>The Great Southern Trendkill</item>
+        <item>War Nerve</item>
+        <item>Drag the Waters</item>
+        <item>10\'s</item>
+        <item>13 Steps To Nowhere</item>
+        <item>Suicide Note Pt. 1</item>
+        <item>Suicide Note Pt. 2</item>
+        <item>Living Through Me (Hell\'s Wrath)</item>
+        <item>Floods</item>
+        <item>The Underground In America</item>
+        <item>(Reprise) Sandblasted Skin</item>
     </string-array>
 </resources>

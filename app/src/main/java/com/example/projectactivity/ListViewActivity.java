@@ -3,6 +3,8 @@ package com.example.projectactivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -41,5 +43,32 @@ public class ListViewActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, songs);
         songsList.setAdapter(adapter);
         songsList.setBackgroundColor(color);
+        songsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> arg0,
+                                    View arg1, int position, long arg3) {
+                Intent intent = null;
+                switch (position) {
+                    case 0:
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                    case 9:
+                    case 10:
+                    case 11:
+                    case 12:
+                        intent = new Intent(ListViewActivity.this, SongTextActivity.class);
+                        intent.putExtra("album", input);
+                        intent.putExtra("songNumber", position);
+                        break;
+                }
+                startActivity(intent);
+            }
+        });
     }
 }
