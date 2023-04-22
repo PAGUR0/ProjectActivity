@@ -21,22 +21,22 @@ public class MainActivity extends AppCompatActivity {
 
         CowboysButton.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
-            intent.putExtra("input", 1);
+            intent.putExtra("input", 0);
             startActivity(intent);
             });
         VulgarDisplayButton.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
-            intent.putExtra("input", 2);
+            intent.putExtra("input", 1);
             startActivity(intent);
         });
         FarBeyondButton.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
-            intent.putExtra("input", 3);
+            intent.putExtra("input", 2);
             startActivity(intent);
         });
         TheGreatButton.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
-            intent.putExtra("input", 4);
+            intent.putExtra("input", 3);
             startActivity(intent);
         });
     }
