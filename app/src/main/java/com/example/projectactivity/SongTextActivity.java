@@ -22,7 +22,9 @@ public class SongTextActivity extends AppCompatActivity {
         int songNumber = intent.getIntExtra("songNumber", 0);
         String song;
         String[][] songs = {
-                {String.valueOf((R.string.cowboys_from_hell_songtext)), String.valueOf((R.string.primal_concrete_sledge_songtext)), String.valueOf((R.string.cowboys_from_hell_songtext))},
+                {String.valueOf((R.string.cowboys_from_hell_songtext)), String.valueOf((R.string.primal_concrete_sledge_songtext)), String.valueOf((R.string.psycho_holiday_songtext)), String.valueOf((R.string.heresy_songtext)),
+                        String.valueOf((R.string.domination_songtext)), String.valueOf((R.string.shattered_songtext)), String.valueOf((R.string.clash_with_realty_songtext)), String.valueOf(((R.string.medicine_man_songtext)),
+                        String.valueOf((R.string.message_in_blood_songtext)))},
                 {},
                 {},
                 {}
