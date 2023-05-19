@@ -21,15 +21,13 @@ public class SongTextActivity extends AppCompatActivity {
         int album = intent.getIntExtra("album", 0);
         int songNumber = intent.getIntExtra("songNumber", 0);
         String song;
-        String[][] songs = {
-                {String.valueOf((R.string.cowboys_from_hell_songtext)), String.valueOf((R.string.primal_concrete_sledge_songtext)), String.valueOf((R.string.psycho_holiday_songtext)), String.valueOf((R.string.heresy_songtext)),
-                        String.valueOf((R.string.domination_songtext)), String.valueOf((R.string.shattered_songtext)), String.valueOf((R.string.clash_with_realty_songtext)), String.valueOf(((R.string.medicine_man_songtext)),
-                        String.valueOf((R.string.message_in_blood_songtext)))},
+        int[][] songs = new int[][]{
+                {R.string.cowboys_from_hell_songtext, R.string.primal_concrete_sledge_songtext, R.string.psycho_holiday_songtext},
                 {},
                 {},
                 {}
         };
-        song = getResources().getString(Integer.parseInt(songs[album][songNumber]));
+        song = getResources().getString(Integer.parseInt(String.valueOf(songs[album][songNumber])));
         textView.setText(song);
         }
 
