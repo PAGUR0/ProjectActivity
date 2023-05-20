@@ -22,20 +22,10 @@ public class SongTextActivity extends AppCompatActivity {
         int album = intent.getIntExtra("album", 0);
         int songNumber = intent.getIntExtra("songNumber", 0);
         int color = 0;
-        switch (album) {
-            case 0:
-                color = getColor(R.color.cowboys_from_hell_color);
-                break;
-            case 1:
-                color = getColor(R.color.vulgar_display_of_power_color);
-                break;
-            case 2:
-                color = getColor(R.color.far_beyond_driven_color);
-                break;
-            case 3:
-                color = getColor(R.color.the_great_southern_trendkill_color);
-                break;
-        }
+        int[] colorArray = new int[]{
+                R.color.cowboys_from_hell_color, R.color.vulgar_display_of_power_color, R.color.far_beyond_driven_color, R.color.the_great_southern_trendkill_color
+        };
+        color = getColor(colorArray[album]);
         textView.setBackgroundColor(color);
         String song;
         int[][] songs = new int[][]{
