@@ -20,16 +20,14 @@ public class ListViewActivity extends AppCompatActivity {
         ListView songsList = findViewById(R.id.songsList);
         Intent intent = getIntent();
         int input = intent.getIntExtra("input", 0);
-        String[] songs = new String[20];
-        int color = 0;
         int[] colorArray = new int[]{
                 R.color.cowboys_from_hell_color, R.color.vulgar_display_of_power_color, R.color.far_beyond_driven_color, R.color.the_great_southern_trendkill_color
         };
         int[] songsArray = new int[]{
                 R.array.cowboys_from_hell_songs, R.array.vulgar_display_of_power_songs, R.array.far_beyond_driven_songs, R.array.the_great_southern_trendkill_songs
         };
-        color = getColor(colorArray[input]);
-        songs = getResources().getStringArray(songsArray[input]);
+        int color = getColor(colorArray[input]);
+        String[] songs = getResources().getStringArray(songsArray[input]);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, songs);
         songsList.setAdapter(adapter);
         songsList.setBackgroundColor(color);

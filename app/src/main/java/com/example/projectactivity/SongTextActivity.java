@@ -21,11 +21,10 @@ public class SongTextActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int album = intent.getIntExtra("album", 0);
         int songNumber = intent.getIntExtra("songNumber", 0);
-        int color = 0;
         int[] colorArray = new int[]{
                 R.color.cowboys_from_hell_color, R.color.vulgar_display_of_power_color, R.color.far_beyond_driven_color, R.color.the_great_southern_trendkill_color
         };
-        color = getColor(colorArray[album]);
+        int color = getColor(colorArray[album]);
         textView.setBackgroundColor(color);
         String song;
         int[][] songs = new int[][]{
