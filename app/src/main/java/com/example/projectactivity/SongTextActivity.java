@@ -39,8 +39,14 @@ public class SongTextActivity extends AppCompatActivity {
         textView.setBackgroundColor(color);
         String song;
         int[][] songs = new int[][]{
-                {R.string.cowboys_from_hell_songtext, R.string.primal_concrete_sledge_songtext, R.string.psycho_holiday_songtext},
-                {},
+                {R.string.cowboys_from_hell_songtext, R.string.primal_concrete_sledge_songtext, R.string.psycho_holiday_songtext,
+                        R.string.heresy_songtext, R.string.cemetery_gates_songtext, R.string.domination_songtext,
+                        R.string.shattered_songtext, R.string.clash_with_realty_songtext, R.string.medicine_man_songtext,
+                        R.string.message_in_blood_songtext, R.string.the_sleep_songtext, R.string.the_art_of_shredding_songtext},
+                {R.string.mouth_for_war_songtext, R.string.a_new_level_songtext, R.string.walk_songtext,
+                        R.string.fucking_hostile_songtext, R.string.this_love_songtext, R.string.rise_songtext,
+                        R.string.no_good_songtext, R.string.live_in_hole_songtext, R.string.regular_people_songetext,
+                        R.string.by_demons_be_driven_songtext, R.string.hollow_songtext},
                 {},
                 {}
         };
