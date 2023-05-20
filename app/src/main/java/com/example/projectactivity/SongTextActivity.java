@@ -47,8 +47,14 @@ public class SongTextActivity extends AppCompatActivity {
                         R.string.fucking_hostile_songtext, R.string.this_love_songtext, R.string.rise_songtext,
                         R.string.no_good_songtext, R.string.live_in_hole_songtext, R.string.regular_people_songetext,
                         R.string.by_demons_be_driven_songtext, R.string.hollow_songtext},
-                {},
-                {}
+                {R.string.Strength_Beyond_Strength_songtext,R.string.Becoming_songtext,R.string.Five_Minutes_Alone_songtext,
+                R.string.im_Broken_songtext,R.string.Good_Friends_and_a_Bottle_Of_Pills_songtext,R.string.Hard_Lines_Sunken_Cheeks_songtext,
+                R.string.twenty_five_years_songtext,R.string.Shedding_Skin_songtext,R.string.Use_My_Third_Arm_songtext,R.string.Throes_OfRejection_songtext,
+                R.string.Planet_Caravan_songtext},
+                {R.string.The_Great_Southern_Trendkill_songtext,R.string.War_Nerve_songtext,R.string.Drag_The_Waters_songtext,
+                R.string.tens_songtext,R.string.thirteen_steps_to_nowhere_songtext,R.string.Suicide_Note_pt1_songtext,R.string.Suicide_Note_pt2_songtext,
+                        R.string.Living_Through_Me_songtext_Hells_Wrath_songetxt,R.string.Floods_songtext,R.string.The_Underground_In_Amerika_songtext,R.string.Reprise_Sandblasted_Skin_songtext
+                }
         };
         song = getResources().getString(Integer.parseInt(String.valueOf(songs[album][songNumber])));
         textView.setText(song);
